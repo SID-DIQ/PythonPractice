@@ -12,10 +12,10 @@ increasedHealth =int(random.randint(25,50) / difficulty)
 health =health+increasedHealth
 #print(health)
 if(health>=75):
-    print(str(health) + "The Player is safe..!")
+    print(str(health) + " The Player is safe..!")
 elif 50<= health <75:
-    print(str(health) + "The plyer is partially in the safe zone..!")
+    print(str(health) + " The plyer is partially in the safe zone..!")
 elif 50>  health >=25:
-    print(str(health) + "The player in Danger...")
+    print(str(health) + " The player in Danger...")
 else:
-    print(str(health) + "The player near to the Hell/Hayyat")
+    print(str(health) + " The player near to the Hell/Hayyat")
