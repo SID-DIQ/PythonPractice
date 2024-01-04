@@ -10,4 +10,4 @@ elif num1 < 0:
 
 # Zero
 else:
-    print(str(num1) + " Zero")
+    print(str(num1) + " 45Zero")
