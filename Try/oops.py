@@ -9,4 +9,4 @@ class students():
 print(getattr(students,'name'))
 print(getattr(students,'age'))
 print(getattr(students,'gender','no attribute found'))
-print(students)
+print(students.__dict__)
